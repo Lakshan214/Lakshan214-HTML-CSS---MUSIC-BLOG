@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <style>
+	*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+ 
+  }
+  
+  html,body{
+  display: grid;
+  height: 100vh;
+  place-items:center;
+  background: #EFC083;
+}
+
+.main{
+  width: 370px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+ .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  }
+  
+  form {
+  margin-top: 25px;
+    }
+	
+  form .input_box{
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin-top: 0px;
+  
+  }	
+  
+.button input{
+  padding: 10px 50px;
+  background:#CFAA5C;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+  margin-left:60px;
+  }
+  
+ .button input:hover{
+  background: #B8954B;
+   }
+   </style>
+   
+   <body>
+   <div class="main">
+        <div class="title"> Sigin up SOUL MUSIC </div>
+	    
+		   <form action="#">
+		 
+	        <div class="input_box">
+              Fast Name      :<input type="text" placeholder="Fast Name" required>
+	         </div>	
+	        <div class="input_box">
+		      Last Name      :<input type="text" placeholder="Last Name" required> 
+	        </div>	
+	        <div class="input_box">
+		      Email or Phone :<input type="text" placeholder="Email or Phone" required>
+            </div>
+	 
+	 <div>
+	    sex <br>
+		male  <input type="radio" name="sex" value="male"> 
+		female<input type="radio" name="sex" value="female">
+	</div><br>
+
+    <div>
+           Favorite type of Music
+           <select id="MUSIC">
+              <option value="Classical">Classica</option>
+              <option value="Rock">Rock</option>
+              <option value="POP">POP</option>
+              <option value="Instrument" selected>Instrument</option>
+           </select> 
+    </div>		   
+    <br><br>
+	
+    <div class="input_box">
+	  <input type="password" placeholder="Password" required> <br>
+	</div>
+	
+     <div class="input_box">
+	  <input type="password" placeholder="Repeat Password" required>
+    </div>
+	
+	 <div class="input_box button">
+        <input type="submit" value="Sigin up">
+      </div>
+   
+   
+   
+   
+   
+   
+   
+   <body>
+   
+   
+   
+   
+   </head>
+</html>

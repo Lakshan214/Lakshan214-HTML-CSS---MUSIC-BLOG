@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+	
+	<style>
+	*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100vh;
+  place-items:center;
+  background:#EFC083;
+}
+.main_div{
+  width: 360px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.main_div .title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+form {
+  margin-top: 25px;
+}
+form .input_box{
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+}
+.input_box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 45px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.input_box input:focus{
+  border-color: black;
+}
+
+
+form .option_div{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.option_div .check_box{
+  display: flex;
+  align-items: center;
+}
+
+
+.option_div .forget_div a{
+  font-size: 16px;
+  color:blue;
+}
+.button input{
+  padding-left: 0;
+  background:#CFAA5C;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+.button input:hover{
+  background: #B8954B;
+}
+  form .sign_up{
+       text-align: center;
+       margin-top: 25px;
+               }
+ .sign_up a{
+     color: blue;
+}
+form a{
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+
+	
+	
+	
+</style>
+   
+  
+   </head>
+<body>
+  <div class="main_div">
+     <div class="title">Login SOUL MUSIC</div>
+	 
+     <form action="#">
+	 
+     <div class="input_box">
+        <input type="text" placeholder="Email or Phone" required>
+      </div>
+	  
+      <div class="input_box">
+        <input type="password" placeholder="Password" required>
+      </div>
+
+      <div class="option_div">
+         <div class="forget_div">
+          <a href="#">Forgot password?</a>
+        </div>
+      </div>
+	  
+      <div class="input_box button">
+        <input type="submit" value="Login">
+      </div>
+	  
+      <div class="sign_up">
+        Not a member? <a href="sigin%20up.html">Signup now</a>
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
